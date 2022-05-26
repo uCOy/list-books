@@ -1,0 +1,22 @@
+.btn-primary {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  flex-direction: column;
+  background: transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  max-height: 40px;
+  white-space: nowrap;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  font-family: "Raleway";
+}
+.promotionCardButtonDelete {
+    border: unset;
+    background-color: unset;
+    position: relative;
+    top: 0px;
+    right: 5px;
+}

@@ -1,0 +1,61 @@
+.uiButton{
+    /* remove o valor default que vier */
+    background-color: unset;
+    /* ou */
+    /* background-color: transparent; */
+    /* border: 1px solid #3498db; */
+    border-radius: 4px;
+    /* color:#3498db; */
+    text-decoration: none;
+    padding: 10px 20px;
+    max-height: 50px;
+    /* margin-left: 10px; */
+    /* para não quebrar a linha */
+    white-space: nowrap;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    font-family: "Raleway";
+}
+
+.uiButton--bordered-primary{
+    color:#3498db;
+    border: 1px solid #3498db;
+
+}
+.uiButton--bordered-primary:hover{
+    color:#3498db;
+    border: 1px solid #3498db;
+
+}
+
+.uiButton--contained-success{
+    color:#fff;
+    background-color: #3498db;
+    border: 1px solid #3498db;
+}
+.uiButton--contained-success:hover{
+    color:#fff;
+    border: 1px solid #3498db;
+}
+
+.uiButton--bordered-warning{
+    color:#e5ae08;
+    border: 1px solid #e5ae08;
+}
+
+.uiButton--bordered-warning:hover{
+    color:#e5ae08;
+    border: 1px solid #e5ae08;
+}
+
+.uiButton--contained-warning{
+    color:#fff;
+    background-color: #e5ae08;
+    border: 1px solid #e5ae08;
+}
+
+.uiButton--contained-primary{
+    color:#fff;
+    background-color: #3498db;
+    border: 1px solid #3498db;
+}
